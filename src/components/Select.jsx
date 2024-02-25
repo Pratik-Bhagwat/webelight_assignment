@@ -1,19 +1,19 @@
-function Select({ timeFrames, time, setTime }) {
+function Select({ options, value, setValue }) {
   return (
     <div className="flex items-center justify-end w-full">
       <select
         className="h-10 border-2"
-        name="Time"
-        id="time"
-        onChange={(e) => setTime(e.target.value)}
-        value={time}
+        name="Value"
+        id="value"
+        onChange={(e) => setValue(e.target.value)}
+        value={value}
       >
         <option value="" hidden>
           Please select a option
         </option>
-        {Object.keys(timeFrames).map((timeFrame) => (
-          <option key={timeFrame} value={timeFrame}>
-            {timeFrame}
+        {Object.keys(options).map((option) => (
+          <option key={option} value={option}>
+            {option}
           </option>
         ))}
       </select>
