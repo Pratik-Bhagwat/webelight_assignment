@@ -8,11 +8,11 @@ const generateRandomColor = () => {
 function formatDataForChartjs(data, option) {
   const labels = data[0]?.weeks.map((week) => week.c);
 
-  const dataPoints = data.map((item) => {
+  const dataPoints = data?.map((item) => {
     const color = generateRandomColor();
     return {
       label: item.author.login,
-      data: item.weeks.map((week) => week[option?.charAt(0).toLowerCase()]),
+      data: item?.weeks?.map((week) => week[option?.charAt(0).toLowerCase()]),
       backgroundColor: `${color}0.2)`,
       borderColor: `${color}1)`,
       borderWidth: 1,
