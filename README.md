@@ -1,3 +1,7 @@
+If you dont want to go through these steps and just want to see if the project is running or not, you can visit the live project link hosted on Vercel [here](https://repository-dashboard.vercel.app/).
+
+---
+
 # Project Setup Instructions
 
 This project requires a GitHub Authentication key to fetch the charts data. Follow the steps below to set up the project:
@@ -35,9 +39,5 @@ The project uses React.js and Tailwind CSS for the CSS. For displaying the data 
 - chartjs-adapter-moment
 - moment
 - react-chartjs-2
-
----
-
-If you just want to see if the project is running or not, you can visit the live project link hosted on Vercel [here](https://repository-dashboard.vercel.app/).
 
 ---
