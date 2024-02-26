@@ -38,6 +38,6 @@ The project uses React.js and Tailwind CSS for the CSS. For displaying the data 
 
 ---
 
-If you just want to see if the project is running or not, you can visit the live project link hosted on Vercel.
+If you just want to see if the project is running or not, you can visit the live project link hosted on Vercel [here](https://repository-dashboard.vercel.app/).
 
 ---
